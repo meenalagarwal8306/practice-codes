@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	cin>>n;
+	int num;
+	for(num=2;num<n;num++)
+	{
+		if(n%num==0)
+		{
+			cout<<"non-prime"<<endl;
+			break;
+		}
+		
+	}
+	if(n==num)
+		{
+			cout<<"prime"<<endl;
+		}
+	return 0;
+}
